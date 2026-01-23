@@ -1,0 +1,13 @@
+<<<<<<< HEAD
+package com.simplemovie.repository;
+=======
+	package com.simplemovie.repository;
+>>>>>>> 66d2abe (Added)
+
+
+import org.springframework.data.jpa.repository.JpaRepository;
+import com.simplemovie.entity.Booking;
+
+
+public interface BookingRepository extends JpaRepository<Booking, Long> {
+}
